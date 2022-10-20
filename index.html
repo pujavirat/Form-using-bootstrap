@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Form</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="Bank-form">
+        <form>
+            <div class="form-group">
+                <input type="text" class="form-control item" id="username" placeholder="Enter First Name">
+            </div>
+
+            <div class="form-group">
+            <input type="text" class="form-control item" id="username" placeholder="Enter Last Name">
+        </div>
+
+            <div class="form-group">
+                <input type="text" class="form-control item" id="email" placeholder="Email">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control item" id="phone-number" placeholder="Phone Number">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control item" id="birth-date" placeholder="Birth Date">
+            </div>
+
+            Account Type:<select>
+                <option name="select" disabled selected>choose account</option>
+                <option name="Account">Normal</option>
+                <option name="Account">Saving</option>
+                <option name="Account">Current</option>
+                <option name="Account">RD</option>
+                <option name="Account">FD</option>
+             </select><br><br>
+        
+             Application Type:<select>
+                <option name="select" disabled selected>choose application</option>
+                <option name="Application">New</option>
+                <option name="Application">Updated</option>
+        
+              </select> <br><br><br><br>
+
+            <!-- Img upld-->
+            <div id="Image-upload">
+                <h3 class="small -heading">Upload your photos</h3>
+                <input type="file" id="Image-input" accept="Image/">
+                <div>
+                <img id="preview-image">
+                </div><br><br>
+
+            
+
+            <div input class="Terms" id="conditions">
+                <h2 class="sub-headings">Terms & Conditions</h2>
+                <p>I further consent to share my information on confidential basis with third parties for evaluating and processing this propsal.</p>
+                <input type="checkbox" id="info-click" name="info-request">
+              </div>
+            
+
+
+
+            <div class="form-group">
+                <button type="button" class="btn btn-block submit-form">Submit</button>
+            </div>
+        </form>
+        
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
